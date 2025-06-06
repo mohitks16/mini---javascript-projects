@@ -1,0 +1,147 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+/* .body{
+    background-color: #137547;
+} */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.main{
+     max-width: 100%;
+    min-height: 100vh;
+    /* box-shadow: 0px 0px 10px 4px #ccc; */
+    /* margin:  auto; */
+    background-color: #054A29;
+}
+h2{
+    text-align: center;
+    color: #033e21 ;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+.row{
+    margin: 10px 0px;
+    width: 40%;
+    margin: auto;
+    background-color: #2A9134;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.row label {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.row input{
+    border: none;
+    outline: none;
+    background: #5BBA6F;
+    font-weight: 14px;
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+form{
+    padding-top: 70px;
+}
+.entry{
+    padding-left: 30px;
+}
+.btn {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 12px 20px; /* Improved padding for sleek design */
+    background-color: #054A29; /* Dark green */
+    color: white; /* Text color contrast */
+    font-weight: bold;
+    border: 2px solid #2A9134; /* Elegant border */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth effect */
+}
+
+.btn:hover {
+    background-color: #2A9134; /* Brighter green on hover */
+    color: white; /* Keep text visible */
+    transform: scale(1.1); /* Slight enlargement for interaction */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Slight press effect */
+    background-color: #054A29; /* Original color */
+}
+/* .row table thead{
+    border-radius: 5px;
+}
+.row table tbody{
+    border-radius: 5px;
+} */
+
+
+.row table {
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden; 
+    border-collapse: collapse;
+    background: #054A29;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.row table thead {
+    background: #2A9134; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row table th, .row table td {
+    padding: 12px 20px;
+    border: 2px solid #2A9134;
+    font-size: 16px;
+}
+
+.row table tbody tr:hover {
+    background: rgba(42, 145, 52, 0.8); 
+    transition: 0.3s ease-in-out;
+}
+
+.row table th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.row table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.row table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.row table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.row table td button {
+    background: #2A9134;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.row table td button:hover {
+    background: white;
+    color: #2A9134;
+    transform: scale(1.1); 
+}
