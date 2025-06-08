@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     background-color:  #F7D38F
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color:  #F7D38F
+;
+    display: flex;
+    flex-wrap:wrap  ;
+}
+.note {
+    height: 400px;
+    width: 400px;
+    background-color: #F1C9DD;
+    
+    margin: 18px;
+    border-radius: 20px;
+    
+    box-shadow: 8px 8px 20px rgba(64, 63, 76, 0.2);
+    
+
+}
+h1 {
+    font-size: 35px; 
+    font-family: "Poppins", sans-serif; 
+    color: #403F4C; 
+    
+    text-align: center; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    
+    background: linear-gradient(90deg, #EFBCD5, #F9DC5C);
+    
+    margin-bottom: 15px; 
+    box-shadow: 4px 4px 12px rgba(64, 63, 76, 0.2);
+}
+
+.tool{
+    width: 100%;
+    background-color:#403F4C ;
+    color: white;
+    padding: 18px;
+    border-radius: 20px 20px 0px 0px ;
+    display: flex;
+    justify-content: end;
+}
+.tool i {
+    padding: 5px;
+    font-size: 18px;
+    color: #F9DC5C; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    cursor: pointer;
+}
+
+.tool i:hover {
+    transform: scale(1.2); 
+    color:#3185FC;
+}
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    
+    font-size: 16px; 
+    font-family: "Poppins", sans-serif; 
+    color: #403F4C; 
+    font-weight: 300;
+    
+    background-color: transparent; 
+
+}
+.note textarea:focus{
+    border: 0;
+    outline: 0;
+
+}
+
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 50px;
+    
+    background-color: #F9DC5C; 
+    color: #403F4C;
+    font-family: "Poppins", sans-serif; 
+    font-size: 18px;
+    
+    padding: 12px 20px;
+    border-radius: 50px; 
+    border: none;
+    
+    box-shadow: 4px 4px 12px rgba(64, 63, 76, 0.2); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+#addBtn:hover {
+    background-color: #F7D38F; 
+    box-shadow: 6px 6px 16px rgba(64, 63, 76, 0.3); 
+    transform: scale(1.05); 
+}
